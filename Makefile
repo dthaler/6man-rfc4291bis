@@ -32,11 +32,12 @@ all:	drafts
 rfc4291:	rfc4291.xml
 	$(XML2RFC) $< -o $@-gen.txt
 draft-ietf-6man-rfc4291bis:	draft-ietf-6man-rfc4291bis.xml
-	$(XML2RFC) $< -o $@-09.txt
+	$(XML2RFC) $< --text -o $@.txt
+	$(XML2RFC) $< --html -o $@.html
 
 drafts: \
 	draft-ietf-6man-rfc4291bis
 
 .PHONY: clean draft commit
 clean:
-	/bin/rm -f *.txt
+	/bin/rm -f *.txt *.html
