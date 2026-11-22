@@ -29,7 +29,7 @@
 
 <!ENTITY rfc7428 PUBLIC "" "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7428.xml">
 
-<!ENTITY I-D.ietf-6man-rfc2460bis SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-6man-rfc2460bis.xml">
+<!ENTITY rfc8200 PUBLIC "" "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.8200.xml">
 
 <!--
 <!ENTITY I-D.ietf-6man-default-iids SYSTEM "http://xml2rfc.ietf.org/public/rfc/bibxml3/reference.I-D.ietf-6man-default-iids.xml">
@@ -118,7 +118,7 @@
 
    <t>IPv6 addresses are 128-bit identifiers for interfaces and sets of
    interfaces (where "interface" is as defined in Section 2 of
-   <xref target="I-D.ietf-6man-rfc2460bis"/>).
+   <xref target="RFC8200"/>).
    There are three types of addresses:</t>
 
   <t><list>
@@ -1456,7 +1456,7 @@
 
   <references title="Normative References">
 
-    &I-D.ietf-6man-rfc2460bis;
+    &rfc8200;
 
   </references>
 
