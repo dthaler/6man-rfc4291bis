@@ -2,6 +2,8 @@ name: Build document
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
 jobs:
@@ -18,3 +20,45 @@ jobs:
         run: pip install xml2rfc
       - name: Build document
         run: make
+      - name: Upload document
+        uses: actions/upload-artifact@v4
+        with:
+          name: document
+          path: |
+            draft-ietf-6man-rfc4291bis.txt
+            draft-ietf-6man-rfc4291bis.html
+          if-no-files-found: error
+
+  publish:
+    if: github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download document
+        uses: actions/download-artifact@v4
+        with:
+          name: document
+          path: ${{ runner.temp }}/document
+      - name: Update gh-pages
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages
+            git switch --force-create gh-pages FETCH_HEAD
+          else
+            git switch --orphan gh-pages
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          cp "$RUNNER_TEMP/document/draft-ietf-6man-rfc4291bis.txt" .
+          cp "$RUNNER_TEMP/document/draft-ietf-6man-rfc4291bis.html" .
+          git add draft-ietf-6man-rfc4291bis.txt draft-ietf-6man-rfc4291bis.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update generated document"
+            git push origin gh-pages
+          fi
