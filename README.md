@@ -5,7 +5,7 @@ This is the working area for the IETF [6man Working Group](https://datatracker.i
 * [Editor's Copy](https://ietf-6man.github.io/6man-rfc4291bis/draft-ietf-6man-rfc4291bis.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-6man-rfc4291bis)
 * [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-6man-rfc4291bis)
-* [Compare Editor's Copy to Working Group Draft](https://author-tools.ietf.org/diff?url_1=https://www.ietf.org/archive/id/draft-ietf-6man-rfc4291bis-09.txt&url_2=https://ietf-6man.github.io/6man-rfc4291bis/draft-ietf-6man-rfc4291bis.txt&chbars=1)
+* [Compare Editor's Copy to Working Group Draft](https://author-tools.ietf.org/diff?url_1=https://www.ietf.org/archive/id/draft-ietf-6man-rfc4291bis-09.txt&url_2=https://ietf-6man.github.io/6man-rfc4291bis/draft-ietf-6man-rfc4291bis.txt)
 * [Compare Editor's Copy to RFC 4291](https://author-tools.ietf.org/diff?url_1=https://www.rfc-editor.org/rfc/rfc4291.txt&url_2=https://ietf-6man.github.io/6man-rfc4291bis/draft-ietf-6man-rfc4291bis.txt)
 
 
