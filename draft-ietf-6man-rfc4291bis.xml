@@ -1229,7 +1229,7 @@
    node's unicast and anycast addresses.  A Solicited-Node multicast
    address is formed by taking the low-order 24 bits of an address
    (unicast or anycast) and appending those bits to the prefix
-   FF02:0:0:0:0:1:FF00::/104 resulting in a multicast address in the
+   ff02:0:0:0:0:1:ff00::/104 resulting in a multicast address in the
    range</t>
 
    <t><list>
@@ -1587,7 +1587,7 @@ implement longest-match-first on prefixes of any valid length.
   </reference>
 
   <reference anchor="IANA-NR"
-     target="http://https://www.iana.org/numbers">
+     target="https://www.iana.org/numbers">
      <front>
      <title>Number Resources</title>
      <author/>
