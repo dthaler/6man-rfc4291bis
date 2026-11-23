@@ -711,9 +711,9 @@
    Generating Semantically Opaque Interface Identifiers with IPv6
    Stateless Address Autoconfiguration (SLAAC)"<xref target="RFC7217"/>.
    For stable IPv6 addresses generated with SLAAC, nodes SHOULD implement
-   and use <xref target="RFC7217"/> as the default scheme and SHOULD NOT
-   embed a stable link-layer address in the interface identifier, as
-   recommended in <xref target="RFC8064"/>.
+   and use <xref target="RFC7217"/> as the default scheme as
+   recommended in <xref target="RFC8064"/>, and SHOULD NOT
+   embed a stable link-layer address in the interface identifier.
    Specific cases are described in appropriate "IPv6 over &lt;link>"
    specifications, such as "IPv6 over Ethernet" <xref target="RFC2464"/>
    and "Transmission of IPv6 Packets over ITU-T G.9959 Networks" <xref
