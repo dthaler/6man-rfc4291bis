@@ -6,7 +6,7 @@ Network Working Group                                          R. Hinden
 Internet-Draft                                      Check Point Software
 Obsoletes: 4291 (if approved)                                 S. Deering
 Intended status: Standards Track                                 Retired
-Expires: 26 May 2027                                    22 November 2026
+Expires: 27 May 2027                                    23 November 2026
 
 
                   IP Version 6 Addressing Architecture
@@ -38,7 +38,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 May 2027.
+   This Internet-Draft will expire on 27 May 2027.
 
 Copyright Notice
 
@@ -53,7 +53,7 @@ Copyright Notice
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 1]
+Hinden & Deering           Expires 27 May 2027                  [Page 1]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 2]
+Hinden & Deering           Expires 27 May 2027                  [Page 2]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -129,7 +129,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
    IPv6 addresses are 128-bit identifiers for interfaces and sets of
    interfaces (where "interface" is as defined in Section 2 of
-   [I-D.ietf-6man-rfc2460bis]).  There are three types of addresses:
+   [RFC8200]).  There are three types of addresses:
 
       Unicast:     An identifier for a single interface.  A packet sent
                    to a unicast address is delivered to the interface
@@ -165,7 +165,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 3]
+Hinden & Deering           Expires 27 May 2027                  [Page 3]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -221,7 +221,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 4]
+Hinden & Deering           Expires 27 May 2027                  [Page 4]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -277,7 +277,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 5]
+Hinden & Deering           Expires 27 May 2027                  [Page 5]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -333,7 +333,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 6]
+Hinden & Deering           Expires 27 May 2027                  [Page 6]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -389,7 +389,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 7]
+Hinden & Deering           Expires 27 May 2027                  [Page 7]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -445,7 +445,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 8]
+Hinden & Deering           Expires 27 May 2027                  [Page 8]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -501,7 +501,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                  [Page 9]
+Hinden & Deering           Expires 27 May 2027                  [Page 9]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -557,7 +557,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 10]
+Hinden & Deering           Expires 27 May 2027                 [Page 10]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -613,7 +613,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 11]
+Hinden & Deering           Expires 27 May 2027                 [Page 11]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -669,7 +669,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 12]
+Hinden & Deering           Expires 27 May 2027                 [Page 12]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -725,7 +725,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 13]
+Hinden & Deering           Expires 27 May 2027                 [Page 13]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -781,7 +781,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 14]
+Hinden & Deering           Expires 27 May 2027                 [Page 14]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -837,7 +837,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 15]
+Hinden & Deering           Expires 27 May 2027                 [Page 15]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -893,7 +893,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 16]
+Hinden & Deering           Expires 27 May 2027                 [Page 16]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -949,7 +949,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 17]
+Hinden & Deering           Expires 27 May 2027                 [Page 17]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1005,7 +1005,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 18]
+Hinden & Deering           Expires 27 May 2027                 [Page 18]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1014,7 +1014,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
    node's unicast and anycast addresses.  A Solicited-Node multicast
    address is formed by taking the low-order 24 bits of an address
    (unicast or anycast) and appending those bits to the prefix
-   FF02:0:0:0:0:1:FF00::/104 resulting in a multicast address in the
+   ff02:0:0:0:0:1:ff00::/104 resulting in a multicast address in the
    range
 
       ff02:0:0:0:0:1:ff00:0000
@@ -1061,7 +1061,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 19]
+Hinden & Deering           Expires 27 May 2027                 [Page 19]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1117,7 +1117,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 20]
+Hinden & Deering           Expires 27 May 2027                 [Page 20]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1155,12 +1155,10 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 6.1.  Normative References
 
-   [I-D.ietf-6man-rfc2460bis]
-              Deering, S. E. and R. M. Hinden, "Internet Protocol,
-              Version 6 (IPv6) Specification", Work in Progress,
-              Internet-Draft, draft-ietf-6man-rfc2460bis-13, 19 May
-              2017, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              6man-rfc2460bis-13>.
+   [RFC8200]  Deering, S. and R. Hinden, "Internet Protocol, Version 6
+              (IPv6) Specification", STD 86, RFC 8200,
+              DOI 10.17487/RFC8200, July 2017,
+              <https://www.rfc-editor.org/info/rfc8200>.
 
 6.2.  Informative References
 
@@ -1173,7 +1171,9 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 21]
+
+
+Hinden & Deering           Expires 27 May 2027                 [Page 21]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1209,7 +1209,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
               <http://www.iana.org/assignments/ipv6-multicast-addresses/
               ipv6-multicast-addresses.xhtml>.
 
-   [IANA-NR]  "Number Resources", <http://https://www.iana.org/numbers>.
+   [IANA-NR]  "Number Resources", <https://www.iana.org/numbers>.
 
    [IANA-NS]  "Technical requirements for authoritative name servers",
               <https://www.iana.org/help/nameserver-requirements>.
@@ -1229,7 +1229,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 22]
+Hinden & Deering           Expires 27 May 2027                 [Page 22]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1285,7 +1285,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 23]
+Hinden & Deering           Expires 27 May 2027                 [Page 23]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1341,7 +1341,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 24]
+Hinden & Deering           Expires 27 May 2027                 [Page 24]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1397,7 +1397,7 @@ A.1.  Creating Modified EUI-64 Format Interface Identifiers
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 25]
+Hinden & Deering           Expires 27 May 2027                 [Page 25]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1453,7 +1453,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 26]
+Hinden & Deering           Expires 27 May 2027                 [Page 26]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1509,7 +1509,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 27]
+Hinden & Deering           Expires 27 May 2027                 [Page 27]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1565,7 +1565,7 @@ Appendix B.  CHANGES SINCE RFC 4291
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 28]
+Hinden & Deering           Expires 27 May 2027                 [Page 28]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1621,7 +1621,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 29]
+Hinden & Deering           Expires 27 May 2027                 [Page 29]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1677,7 +1677,7 @@ B.1.  Change History Since RFC4291
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 30]
+Hinden & Deering           Expires 27 May 2027                 [Page 30]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1733,7 +1733,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 31]
+Hinden & Deering           Expires 27 May 2027                 [Page 31]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1789,7 +1789,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 32]
+Hinden & Deering           Expires 27 May 2027                 [Page 32]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1845,7 +1845,7 @@ Internet-Draft        IPv6 Addressing Architecture         November 2026
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 33]
+Hinden & Deering           Expires 27 May 2027                 [Page 33]
 
 Internet-Draft        IPv6 Addressing Architecture         November 2026
 
@@ -1901,4 +1901,4 @@ Authors' Addresses
 
 
 
-Hinden & Deering           Expires 26 May 2027                 [Page 34]
+Hinden & Deering           Expires 27 May 2027                 [Page 34]
