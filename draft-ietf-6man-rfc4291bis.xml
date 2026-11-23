@@ -641,14 +641,15 @@
    unique on a single subnet, and a Link-Local address may be created
    with interface identifier that is unique over multiple subnets.</t>
 
-   <t>Interface Identifiers are 64 bit long except if the first three
-   bits of the address are 000, or when the addresses are manually
-   configured, or by exceptions defined in standards track documents. The
-   rationale for using 64 bit Interface Identifiers can be found in <xref
-   target="RFC7421"/>. An example of a standards track exception is <xref
-   target="RFC6164"/> that standardises 127 bit prefixes on inter-router
-   point-to-point links.
-   </t>  
+   <t>Interface Identifiers are currently defined as 64 bits long except
+   if the first three bits of the address are 000, or when the addresses
+   are manually configured, or by exceptions defined in standards track
+   documents such as <xref target="RFC6164"/>.</t>
+
+   <t>The rationale for using 64 bit Interface Identifiers can be found
+   in <xref target="RFC7421"/>. However, this does not affect the general
+   rule that IPv6 routing is classless <xref target="RFC4632"/> and is
+   based on any prefix length up to 128 bits <xref target="BCP198"/>.</t>
 
 <!--
    <t><list>
